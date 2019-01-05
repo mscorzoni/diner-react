@@ -13,7 +13,7 @@ class Header extends Component {
             <span>Day</span> 
           </h1>
           <h3 className="tagline">
-            <p>Het</p>
+            <p>{this.props.tagline}</p>
           </h3>
         </header>
 
